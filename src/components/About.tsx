@@ -1,11 +1,9 @@
-import React from 'react';
-
 const About = () => {
   return (
     <section className="section" id="about">
       <div className="container">
         <h2 className="section-title">About <span className="gradient-text">Me</span></h2>
-        
+
         <div className="about-grid">
           <div className="about-text animate-fade-in">
             <p>
@@ -18,8 +16,8 @@ const About = () => {
               When I'm not coding, you can find me exploring new innovative projects, contributing to open-source, or learning about the latest advancements in AI and web tech.
             </p>
           </div>
-          
-          <div className="about-stats animate-fade-in" style={{animationDelay: '0.2s'}}>
+
+          <div className="about-stats animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <div className="stat-card">
               <div className="stat-num gradient-text">MERN</div>
               <div className="stat-label">Stack Focus</div>
