@@ -5,6 +5,7 @@ interface FormState {
   name: string;
   email: string;
   message: string;
+  
 }
 
 const Contact = () => {
@@ -34,7 +35,7 @@ const Contact = () => {
             <p className="contact-intro">
               I'm currently open to new opportunities and collaborations.
               Whether you have a project idea, a question, or just want to say hi —
-              my inbox is always open!
+              my inbox is always Open
             </p>
 
             <div className="contact-cards">
